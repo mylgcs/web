@@ -69,4 +69,27 @@ HTML 文件是文本文件，因此你可以使用任何文本编辑器来创建
 * **Notepad++：** [Notepad++](https://notepad-plus-plus.org/)
 * **Sublime Text：** [Sublime Text](http://www.sublimetext.com/)
 * **VS Code：** [VS Code](https://code.visualstudio.com/)  
-你可以从以上软件的官网中下载对应的软件，按步骤安装即可。
+你可以从以上软件的官网中下载对应的软件，按步骤安装即可。  
+# 创建 HTML 文件
+接下来，我们将演示如何使用 Sumlime Text 编辑器来创建 HTML 文件。
+***
+**步骤 1：新建 HTML 文件**  
+在 Sublime Text 安装完成后，选择" 文件(F)->新建(N) "，在新建的文件中输入以下代码：
+```angular2
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>w3cschool - 随时随地学编程</title>
+</head>
+<body>
+  <h1>我的第一个标题。</h1>
+  <p>我的第一个段落。</p>
+</body>
+</html>
+```
+如下图所示：
+![图片](img/img2.png)  
+> 提示：对于中文网页需要使用 `````<meta charset="utf-8">````` 声明编码，否则会出现乱码。有些浏览器（如 360 浏览器）会设置 GBK 为默认编码，则你需要设置为 <meta charset="gbk">。
+# 保存 HTML 文件
+
